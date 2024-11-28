@@ -31,3 +31,12 @@ https://eu-west-3.console.aws.amazon.com/cloudshell/home?region=eu-west-3#
 https://eu-north-1.console.aws.amazon.com/cloudshell/home?region=eu-north-1#
 
 https://sa-east-1.console.aws.amazon.com/cloudshell/home?region=sa-east-1#
+
+<code>
+function ClickConnect() {
+console.log("Working");
+document
+  .elementFromPoint(500, 500).click()
+}
+setInterval(ClickConnect, 30000)
+</code>
