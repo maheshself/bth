@@ -38,5 +38,5 @@ console.log("Working");
 document
   .elementFromPoint(500, 500).click()
 }
-setInterval(ClickConnect, 30000)
+setInterval(ClickConnect, 70000)
 </code>
